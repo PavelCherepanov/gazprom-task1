@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        TEXT_FOR_FILE = 'мой кастомный текст'
+        TEXT_FOR_FILE = ${env.TEXT_FOR_FILE}
     }
 
     stages {
