@@ -5,9 +5,9 @@ pipeline {
     }
 
     stages {
-        stage('Start') {
+        stage('Build') {
             steps {
-                sh script.sh
+                sh "script.sh"
             }
         }
     }
