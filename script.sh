@@ -1,3 +1,4 @@
 #!/bin/bash
-echo "hello world" > helloworld.txt
+TEXT_FOR_FILE=$1
+echo $TEXT_FOR_FILE > textfile.txt
 df -h
