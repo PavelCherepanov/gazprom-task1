@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh "script.sh ${TEXT_FOR_FILE}"
+                sh "script.sh"
             }
         }
     }
