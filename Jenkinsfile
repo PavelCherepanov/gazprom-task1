@@ -8,7 +8,8 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building...'
-                sh "./script.sh"
+                
+                sh "sh ./script.sh"
             }
         }
     }
